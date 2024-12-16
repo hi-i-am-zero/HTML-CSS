@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100px;
+  }
+  
+  .header, .footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  .main-content {
+    background-color: #7ed321;
+    color: white;
+    flex: 2; /* Chiếm 2 phần */
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .sidebar {
+    background-color: #9b59b6;
+    color: white;
+    flex: 1; /* Chiếm 1 phần */
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .twin-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .twin {
+    background-color: #f39c12;
+    color: white;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
