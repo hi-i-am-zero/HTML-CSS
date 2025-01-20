@@ -1,0 +1,26 @@
+.navbar-1{
+    background-color: rgb(75, 73, 73);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar1-logo{
+    display: flex;
+    align-items: center;
+
+}
+.navbar1-pages {
+    display: flex;
+    align-items: center;
+}
+.navbar1-page{
+    padding: 0px 12px;
+}
+
+@media (max-width:768px) {
+    .navbar1-pages{
+        display: none;
+    }
+}

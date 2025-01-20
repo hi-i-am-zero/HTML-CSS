@@ -1,0 +1,15 @@
+div{
+    background-color: rgb(35, 35, 35);
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}

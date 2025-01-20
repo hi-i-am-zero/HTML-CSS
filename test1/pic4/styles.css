@@ -1,0 +1,143 @@
+.header {
+    background: #afedef;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f5f3ee;
+    padding: 8px 12px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background: #c0dd1d;
+    border: 1px solid #a1b483;
+    border-radius: 50%;
+}
+
+.pages {
+    display: flex;
+}
+
+.page {
+    padding: 6px 12px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.film-details {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.film-details .action-img .image {
+    background-color: #ffd1dc;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.film-details .action-img .image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.film-details .info {
+    flex: 2;
+}
+.film-details .info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.film-details .info .subtitle {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0;
+}
+.film-details .info .rating {
+    margin: 10px 0;
+    color: #ffc107;
+}
+.film-details .info .tags button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.film-details .actions button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.film-details .actions .share {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.film-details .actions .download {
+    background-color: #ffd700;
+    color: black;
+}
+
+.film-details .actions .watch {
+    background-color: #007bff;
+    color: white;
+}
+
+.time {
+    color: #657605;
+}
+
+.des {
+    color: #007bff;
+}
+strong {
+    color: black;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+.description h3 {
+    margin-bottom: 10px;
+}
+
+.description p {
+    border: 2px solid black;
+    padding: 12px 8px;
+}
+
+.cast {
+    margin-bottom: 20px;
+}
+.cast h3 {
+    margin-bottom: 10px;
+}
+.cast .actors {
+    display: flex;
+    gap: 20px;
+}
+.cast .actors .actor {
+    text-align: center;
+}
+.cast .actors .actor img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+.cast .actors .actor p {
+    margin-top: 10px;
+    font-size: 14px;
+}
